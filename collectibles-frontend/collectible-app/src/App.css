@@ -1,0 +1,190 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+button {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+section{
+  margin-top: 80px;
+}
+
+h1{
+  margin-top: 80px;
+}
+
+h3, h4 {
+  margin-bottom: 0;
+}
+
+nav {
+  border-bottom: 4px solid black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 24px 32px;
+  
+}
+
+nav a:hover {
+  background: black;
+  color: white;
+}
+
+#page-body {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 72px;
+}
+
+.article-list-item {
+  text-decoration: none;
+  color: black;
+  padding: 16px 0 0 0;
+}
+
+.article-list-item p {
+  padding-bottom: 32px;
+  border-bottom: 2px solid black;
+}
+
+#add-comment-form {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+#add-comment-form h3 {
+  margin-bottom: 16px;
+}
+
+input, textarea {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+}
+
+.error {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: pink;
+}
+
+#add-comment-form button {
+  width: 320px;
+}
+
+
+.comment {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+.nav-right {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.container {
+  display: flex; 
+  justify-content: center;
+}
+.addcomic-h1 {
+  display: flex; 
+  justify-content: center;
+}
+
+/* Add these styles to your app.css file */
+.dashboard-container {
+  display: flex;
+}
+
+.main-content {
+  /* Your existing styles for main content */
+}
+
+.icon-button {
+  padding: 16px;
+  font-size: 18px;
+  background-color: black;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 16px; /* Adjust the margin as needed */
+}
+
+#sidebar-p, #user-photo{
+  text-align: center;
+}
+.collectibles-cards{
+  margin-top: 16px; 
+  display: flex;
+  gap: 60px; /* Adjust the gap as needed for the desired separation */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a.collectible-link {
+  text-decoration: none;
+  color: inherit; /* Keep the default color */
+}
+
+
+select {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+}
+
+/* Style for the disabled option */
+option[disabled] {
+  color: #888; /* Adjust the color as needed */
+}
+
+/* Style for the other options */
+option {
+  color: black; /* Adjust the color as needed */
+}
+
+/* Hover style for the options */
+select:hover {
+  border: 2px solid #555; /* Adjust the color as needed */
+}
+
