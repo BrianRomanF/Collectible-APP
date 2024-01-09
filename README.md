@@ -4,6 +4,10 @@ Welcome to our user-friendly web app designed to help you organize and cherish y
 
 
 Intruccions to install the project:
+  -Pre-requisites: 
+          -Node.js/NPM
+          -React 
+          -MongoDB 
   -Clone the repo to your computer
   -To run the backend:
                       - Install the dependencies : npm install 
